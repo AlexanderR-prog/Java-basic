@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.first-text {
+    font-size: 25px;
+    padding-top: 35px;
+}
+.carousel-control-prev {
+    left: -30px;
+}
+.carousel-control-next {
+    right: -30px;
+}
+.flex-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.accordion-button {
+    font-size: 25px;
+    padding: 35px;
+}
+.strong {
+    font-size: 20px;
+}
+.accordeon-text {
+    padding-top: 20px;
+    font-size: 20px;
+}
+.block {
+    margin-top: 30px;
+    border: none;
+}
+.top {
+    padding-top: 30px;
+    font-size: 18px;
+}
+.main {
+    font-size: 25px;
+}
+.text {
+    margin-top: 35px;
+    font-size: 16px;
+}
+.info {
+    font-size: 16px;
+}
+.phone {
+    margin-top: 35px;
+    font-size: 25px;
+}
