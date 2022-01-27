@@ -31,9 +31,11 @@ body {
 .header-container {
     text-align: center;
 }
+
 .header-text375 {
     display: none;
 }
+
 .header-text {
     margin-top: 26px;
     font-size: 13px;
@@ -66,6 +68,7 @@ body {
     padding-bottom: 18px;
     color: #666666;
 }
+
 .header-nav-link:hover {
     color: #5A8CF1;
     border-bottom: 2px solid #5A8CF1;
@@ -120,18 +123,23 @@ body {
     background-color: #316FEE;
     border: none;
 }
+
 .btn:hover {
     background-color: #0000FF;
 }
+
 .btn:active {
     background-color: #316FEE;
 }
+
 .btn:focus {
     outline: 3px #FFFFFF;
 }
+
 .button-svg375 {
     display: none;
 }
+
 .input-check {
     margin-left: 49px;
     margin-top: 19px;
@@ -194,9 +202,11 @@ body {
     padding-left: 24px;
     padding-top: 16px;
 }
+
 .menu-check-end {
     padding-left: 24px;
 }
+
 .check-text {
     font-weight: 400;
     font-size: 14px;
@@ -204,6 +214,7 @@ body {
     padding-right: 128px;
     padding-top: 1px;
 }
+
 .svg1 {
     background-image: url(../img/switchBigActive.svg);
     background-repeat: no-repeat;
@@ -212,6 +223,7 @@ body {
     height: 24px;
     cursor: pointer;
 }
+
 .svg2 {
     background-image: url(../img/switchBigDisactive.svg);
     background-repeat: no-repeat;
@@ -220,6 +232,7 @@ body {
     height: 24px;
     cursor: pointer;
 }
+
 .svg3 {
     background-image: url(../img/switchBigDisactive.svg);
     background-repeat: no-repeat;
@@ -228,6 +241,7 @@ body {
     height: 24px;
     cursor: pointer;
 }
+
 .svg4 {
     background-image: url(../img/switchBigDisactive.svg);
     background-repeat: no-repeat;
@@ -236,15 +250,19 @@ body {
     height: 24px;
     cursor: pointer;
 }
+
 .svg1:hover {
     background-image: url(../img/switchBigDisactive.svg);
 }
+
 .svg2:hover {
     background-image: url(../img/switchBigActive.svg);
 }
+
 .svg3:hover {
     background-image: url(../img/switchBigActive.svg);
 }
+
 .svg4:hover {
     background-image: url(../img/switchBigActive.svg);
 }
@@ -292,24 +310,18 @@ body {
     margin-bottom: 48px;
 }
 
-
-
-
 @media screen and (max-width: 376px) {
     .all-container {
         max-width: 376px;
         margin: 0;
         padding: 0;
         margin-top: 35px;
-    } 
-
+    }
     /*header*/
-
     .header-container {
         max-width: 376px;
         text-align: center;
     }
-    
     .header-main {
         margin-top: 8px;
         font-weight: 500;
@@ -322,25 +334,21 @@ body {
     .header-text375 {
         display: block;
         margin-top: 26px;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 16px;
-    color: #999999;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+        color: #999999;
     }
-    
     .header-nav-link:not(:last-child) {
         margin-right: 32px;
     }
-    
     .header-nav-link {
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
         padding-bottom: 16px;
     }
-
     /*main*/
-    
     .main-post-block {
         margin: 0;
         margin-left: 16px;
@@ -348,7 +356,7 @@ body {
         margin-top: 16px;
         background-color: white;
         border-radius: 28px 28px;
-    }  
+    }
     .main-text {
         text-align: left;
         padding-left: 16px;
@@ -367,20 +375,16 @@ body {
     .button-svg375 {
         display: block;
     }
-
     .input-check {
         margin: 0;
         padding: 0;
         margin-left: 17px;
         margin-top: 16px;
     }
-    
     .input-check-text {
         margin-left: 2px;
     }
-
     /*menu*/
-
     .menu-container {
         max-width: 376px;
         margin: 0;
@@ -389,7 +393,6 @@ body {
         flex-direction: column;
         padding-bottom: 32px;
     }
-    
     .menu-container-block {
         margin-top: 24px;
         margin-left: 16px;
@@ -398,21 +401,17 @@ body {
         border-radius: 16px;
         background-color: white;
     }
-    
     .menu-first-text {
         padding-left: 16px;
     }
-    
     .menu-main-text {
         padding-left: 16px;
     }
-    
     .menu-second-text {
         padding-left: 16px;
         padding-right: 16px;
         padding-top: 8px;
     }
-    
     .menu-check {
         padding-left: 16px;
         padding-top: 16px;
@@ -424,11 +423,9 @@ body {
         padding-right: 16px;
         padding-left: 4px;
     }
-    
     .menu-down-check {
         padding-left: 50px;
     }
-    
     .down-check-text {
         font-weight: 400;
         font-size: 14px;
@@ -455,37 +452,30 @@ body {
         margin-left: 16px;
         height: 24px;
     }
-    
     .block-svg1 {
         background-image: url(../img/mBlock1.svg);
         background-repeat: no-repeat;
         background-position-x: 283px;
         background-position-y: 20px;
     }
-    
     .block-svg2 {
         background-image: url(../img/mBlock2.svg);
         background-repeat: no-repeat;
         background-position-x: 283px;
         background-position-y: 20px;
     }
-    
     .block-svg3 {
         background-image: url(../img/mBlock3.svg);
         background-repeat: no-repeat;
         background-position-x: 283px;
         background-position-y: 20px;
     }
-    
     .block-svg4 {
         background-image: url(../img/mBlock4.svg);
         background-repeat: no-repeat;
         background-position-x: 283px;
         background-position-y: 20px;
     }
-
-
-
 }
 
 @font-face {
@@ -493,14 +483,13 @@ body {
     font-weight: normal;
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/Roboto-Regular.woff2) format('woff2'),
-        url(../fonts/Roboto-Regular.woff) format('woff');
+    src: url(../fonts/Roboto-Regular.woff2) format('woff2'), url(../fonts/Roboto-Regular.woff) format('woff');
 }
+
 @font-face {
     font-family: 'Roboto';
     font-weight: normal;
     font-style: normal;
     font-weight: 500;
-    src: url(../fonts/Roboto-Medium.woff2) format('woff2'),
-        url(../fonts/Roboto-Medium.woff) format('woff');
+    src: url(../fonts/Roboto-Medium.woff2) format('woff2'), url(../fonts/Roboto-Medium.woff) format('woff');
 }
