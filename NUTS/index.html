@@ -1,0 +1,19 @@
+<template>
+   <p>Vue3</p>
+</template>
+
+<script>
+  export default {
+    data: () => ({
+      ......data of your component
+    }),
+    mounted() {
+      let recaptchaScript = document.createElement('script')
+      recaptchaScript.setAttribute('src', 'https://www.google.com/recaptcha/api.js')
+      document.head.appendChild(recaptchaScript)
+    },
+    methods: {
+      ......methods of your component
+    }
+  }
+</script>
