@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Перетягивание карточек</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <div class="hero">
+        <div class="wrapper">
+            <h1>Разложите карточки в соответствии с принадлежностью вида транспорта:</h1>
+            <div class="up-list">
+                <div class="list__cel js-cel">
+                <div class="list-card js-card" draggable="true">
+                    <div class="list-card-header">
+                    </div>
+                </div>
+                </div>
+            </div>
+                <div class="down-list">
+                <div class="list__cel js-cel">
+                    <p>Наземные транспортные средства</p>
+                </div>
+                <div class="list__cel js-cel">
+                    <p>Воздушные транспортные средства</p>
+                </div>
+            </div>
+            <div class="button-container">
+                <button class="btn">
+                    Проверить
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: Arial;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+p {
+    padding: 20px;
+    font-size: 14px;
+}
+.hero {
+    width: 100%;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.down-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.up-list {
+    margin-left: 170px;
+}
+.list__cel {
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+    min-height: 150px;
+    box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.2);
+    background-color: #f0f2f5;
+    overflow: hidden;
+}
+
+.list-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    cursor: all-scroll;
+}
+
+.list-card-header {
+    font-weight: bold;
+    padding: 12px 20px;
+    background-image: url(../Plane.jpg);
+    background-size: contain;
+    height: 150px;
+    color: white;
+}
+
+.list-card-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.button-container {
+    margin-top: 25px;
+    margin-left: 230px;
+}
+
+.btn {
+    padding: 20px 70px;
+    font-size: 20px;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.hovered {
+    background-color: #d1d8e2;
+}
