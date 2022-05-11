@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Лонгрид</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="page-container">
+            <div class="page-main">
+                <h1 id="main">Lorem ipsum</h1>
+            </div>
+            <div class="page-blocks" id="all">
+                <div class="page-left">
+                    <div class="page-left-up">
+                        <div class="up-block">
+
+                        </div>
+                        <div class="block" id="block-element">
+                            <p class="intro intro-up">
+                                Заголовок 2 типа немного длиннее
+                            </p>
+                        </div>
+                    </div>
+                    <div class="block" id="block-element">
+                        <button type="button" class="btn btn-outline-success intro" onclick="togFunc('text')">
+                            <span>
+                                С картинкой
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="block block-center" id="block-element">
+                    <p class="intro">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Maiores, veritatis rem rerum deserunt quae, non atque labore
+                        eveniet sint mollitia consequuntur sed nostrum nesciunt?
+                        Excepturi illum totam quaerat consequatur asperiores mollitia,
+                        eligendi cum eaque illo pariatur necessitatibus eum molestiae
+                        temporibus itaque dicta inventore reiciendis. Mollitia in magni
+                        nulla deleniti quasi?
+                    </p>
+                </div>
+                <div id="text">
+                    <img src="Plane.jpg" alt="" class="block-image">
+                </div>
+            </div>
+        </div>
+        <div class="settings">
+            <form>
+                <input type="text" placeholder="Установить ширину всего контейнера" class="input-page-width element">
+                <input type="text" placeholder="Установить ширину блока" class="input-width element">
+                <input type="text" placeholder="Установить высоту блока" class="input-height element">
+            </form>
+            <br>
+            <button class="set-width-btn element button">Применить</button>
+            <button class="fontSizePlus button">Увеличить шрифт (по умолчанию 16px)</button>
+            <button class="fontSizeMinus button">Уменьшить шрифт</button>
+            <button class="color button">Изменить цвет заголовка</button>
+            <button class="text-color button">Изменить цвет текста в блоках</button>
+            <button class="back-color button">Цвет 1 блока</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
