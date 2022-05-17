@@ -63,7 +63,7 @@ p {
 .list-card-header {
     font-weight: bold;
     padding: 12px 20px;
-    background-image: url(../Plane.jpg);
+    background-image: url(./Plane.jpg);
     background-size: contain;
     height: 150px;
     color: white;
