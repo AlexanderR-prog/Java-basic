@@ -7,7 +7,7 @@
 }
 
 .drop {
-    background-image: url(../Plane.jpg);
+    background-image: url(./Plane.jpg);
     background-size: contain;
     width: 300px;
     height: 200px;
